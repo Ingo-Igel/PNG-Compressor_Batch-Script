@@ -8,7 +8,7 @@ set /a counter=1
 echo -start processing PNG no. %counter%
 
 echo --start ImageMagick
-"%path%/ImageMagick/magick.exe" %1 -verbose -define preserve-timestamp=true -background black -alpha background %1
+"%path%/ImageMagick/magick.exe" %1 -verbose -define preserve-timestamp=true -background #000000 -alpha background %1
 echo --finished ImageMagick
 
 echo -finished processing PNG no. %counter%
