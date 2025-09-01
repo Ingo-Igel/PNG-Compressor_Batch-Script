@@ -1,6 +1,6 @@
 # PNG-Compressor Batch-Script
 
-This repository contains batch scripts and executable comandline tools that compress PNG files using lossy or lossless methods and set the color of transparent pixels to a defined value.
+This repository contains batch scripts and executable comandline tools that compress PNG files using lossy and lossless methods and set the color of transparent pixels to a defined value.
 
 ## Motivation
 
