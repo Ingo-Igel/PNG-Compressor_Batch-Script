@@ -48,7 +48,7 @@ The batch script uses three command-line tools to process PNG and achieve the de
 
 ### Installing
 
-Download and unzip the latest [Release](https://github.com/Ingo-Igel/PNG-Compressor_Batch-Script/releases).
+Download and unzip the latest released [source code (zip)](https://github.com/Ingo-Igel/PNG-Compressor_Batch-Script/releases).
 
 ### Executing the Batch Script
 
