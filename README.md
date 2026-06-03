@@ -19,7 +19,7 @@ The batch script uses three command-line tools to process PNG and achieve the de
 
 ## Included tools
 
-* [pngquant](https://pngquant.org/) (pre-compiled binary taken from [pngquant-bin](https://github.com/imagemin/pngquant-bin/tree/main/vendor/win))
+* [pngquant](https://pngquant.org/) (pre-compiled binary by myself)
 * [ImageMagick](https://imagemagick.org/)
 * [oxipng](https://github.com/oxipng/oxipng)
 
