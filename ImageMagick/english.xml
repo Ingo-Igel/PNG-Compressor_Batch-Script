@@ -524,6 +524,9 @@
         <message name="LeftAndRightImageSizesDiffer">
           left and right image sizes differ
         </message>
+        <message name="ImageSizeLimitExceeded">
+          Image dimension exceeds maximum supported size
+        </message>
         <message name="NegativeOrZeroImageSize">
           negative or zero image size
         </message>
@@ -1027,7 +1030,7 @@
     <policy>
       <error>
         <message name="NotAuthorized">
-          attempt to perform an operation not allowed by the security policy
+          attempt to perform an operation not authorized by the security policy
         </message>
       </error>
     </policy>
