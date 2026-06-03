@@ -68,11 +68,6 @@ Find the following line:
 
 Change the HEX color definition after the `-background` comand to your desired color. Then, save and close.
 
-## Version History
-
-* 1.0
-    * Initial Release
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
