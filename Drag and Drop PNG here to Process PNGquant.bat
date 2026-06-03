@@ -8,7 +8,7 @@ set /a counter=1
 echo -start processing PNG no. %counter%
 
 echo --start PNGquant
-"%path%/pngquant/pngquant.exe" --quality=75-100 --ext=.png --force --skip-if-larger --speed 1 --strip --verbose  %1
+"%path%/pngquant/pngquant.exe" --quality=75-100 --ext=.png --force --skip-if-larger --speed 1 --strip --verbose %1
 echo --finished PNGquant
 
 echo -finished processing PNG no. %counter%
