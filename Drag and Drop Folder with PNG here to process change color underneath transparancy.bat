@@ -9,7 +9,7 @@ for /R %* %%f in (*.png) do (
 echo -start processing PNG no. !counter!
 
 echo --start ImageMagick
-"%path%/ImageMagick/magick.exe" -limit thread 4 -monitor "%%f" -verbose -define preserve-timestamp=true -background #000000 -alpha background "%%f"
+"%path%/ImageMagick/magick.exe" -limit thread 4 "%%f" -verbose -define preserve-timestamp=true -background #000000 -alpha background "%%f"
 echo --finished ImageMagick
 
 echo -finished processing PNG no. !counter!

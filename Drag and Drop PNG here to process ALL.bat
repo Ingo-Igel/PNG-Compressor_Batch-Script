@@ -12,7 +12,7 @@ echo --start PNGquant
 echo --finished PNGquant
 
 echo --start ImageMagick
-"%path%/ImageMagick/magick.exe" -limit thread 4 -monitor %1 -verbose -define preserve-timestamp=true -background #000000 -alpha background %1
+"%path%/ImageMagick/magick.exe" -limit thread 4 %1 -verbose -define preserve-timestamp=true -background #000000 -alpha background %1
 echo --finished ImageMagick
 
 echo --start oxiPNG
